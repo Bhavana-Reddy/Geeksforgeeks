@@ -1,3 +1,4 @@
+/* converting infix expression to postfix expresion in java*/
 import java.util.*;
 import java.io.*;
 import java.util.Scanner;
@@ -16,26 +17,6 @@ public class InfixToPostfix {
 	 static String infixToPostfix(String infix){
 		String postfix="";
 		Stack<Character> stack = new Stack<Character>();
-		/*
-		switch(op) {
-			case '(' : stack.push(op);
-			System.out.println(op);
-			           break;
-		    case ')' :
-					     postfix = postfix + stack.pop();
-                         break;
-			case '*' :
-			case '/' :
-			case '+' :
-			case '-' :
-			case '^' : while(prec(stack.peek())<prec(op))
-				        stack.push(op);
-					   while(prec(stack.peek())>=prec(op)) {
-						  postfix = postfix + stack.pop();
-				
-					   }
-					   break;
-		}*/
 		char[] k=infix.toCharArray();
 		System.out.println(k.length);
 		for(char t:k) {
