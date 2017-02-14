@@ -12,7 +12,7 @@ public class reverseString {
 		Stack<Character> stack = new Stack<Character>();
 		char[] k=str.toCharArray();
 		for(char t:k) {
-			System.out.println("the element to be pushed is"+t);
+			//System.out.println("the element to be pushed is"+t);
 			stack.push(t);
 		}
 		String output = "";
