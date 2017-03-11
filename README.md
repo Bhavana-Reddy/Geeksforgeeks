@@ -1,2 +1,2 @@
-# Geeksforgeeks-Stack problems
-My Solutions.
+# Geeksforgeeks-Solutions
+My Solutions for Stacks, Arrays, Queues
